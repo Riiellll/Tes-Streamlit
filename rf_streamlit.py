@@ -4,7 +4,7 @@ import numpy as np
 
 # Load the machine learning model
 st.title('Nama')
-model = joblib.load('../StreamlitCodeExample/RF2_class.pkl')
+model = joblib.load('../RF2_class.pkl')
 
 def main():
     st.title('Machine Learning Model Deployment')
